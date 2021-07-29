@@ -6,10 +6,7 @@ A standard project structure for C and C++ projects with a perfect Makefile.
 - run
 - test
 - static
-- dynamic
-	-f PIC
-		- Position Independent Code
-	-shared
+- dynamic `-f PIC -shared`
 
 ## Project Structure
 ### bin
