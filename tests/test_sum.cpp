@@ -1,14 +1,14 @@
 #include <sum/sum.hpp>
-#include <iostream>
-
+#include <assert.h>
 
 int main()
 {
 	int x = 3;
 	int y = 34;
 	int z = sum(x, y);
+	int expected = x + y;
 
-	std::cout << z << std::endl;
+	assert(z == expected);
 
 	return 0;
 }
